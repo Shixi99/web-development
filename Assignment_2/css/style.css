@@ -8,7 +8,7 @@ html,
 body {
     background-color: #272727;
     font-family: 'Lato', 'Arial', sans-serif;
-    text-rendering: optimizeLegibility;
+    /* text-rendering: optimizeLegibility; */
 }
 
 .container{
@@ -22,6 +22,7 @@ body {
     background: linear-gradient(rgba(129, 96, 61, 0.6) 0%, rgba(138, 100, 61, 0.6) 50%, rgba(3, 64, 97, 0.925) 100%), url("../img/bg.jpg") center;
     background-size: cover;
     clip-path: polygon(50% 100%, 0% 60%, 0% 0%, 100% 0%, 100% 60%);
+    
 }
 
 .content { text-align: center;}
